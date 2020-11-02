@@ -1,0 +1,105 @@
+.content{
+    height: 100vh;
+}
+.dashCon .content{
+    width: 100%;
+    background: #F6F7FB;
+    padding: 33px 0;
+}
+.dashCon .content h3 {
+    font-size: 20px;
+    font-family: Gilroy ExtraBold;
+    text-align: center;
+    font-weight: bolder;
+}
+.dashCon .content .box1 {
+    padding: 0;
+    text-align: center;
+}
+.dashCon .content .box1 .box {
+    background: #C4C4C4;
+    padding: 1rem 0;
+    margin: 17px 0;
+}
+.dashCon .content .box1 h5  {
+    font-size: 14px;
+    font-family: 'Gilroy ExtraBold';
+}
+.dashCon .content .box1 .info h5{
+    font-family: 'Gilroy Light';
+    font-weight: bold
+}
+.dashCon .content .box1 .info i{
+    margin: 0 5px;
+}
+
+.dashCon .content .next{
+/*    display: flex;*/
+    justify-content: flex-end;
+    margin-top: 50px;
+        position: absolute;
+    right: 7%;
+    bottom: 15%;
+}
+.dashCon .content .next a{
+    
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Roboto';
+
+}
+
+select#action {
+    border: 0;
+    background: transparent;
+    font-family: 'Gilroy Light';
+    font-weight: bold;
+    outline: none;
+    cursor: pointer
+}
+
+.dashCon .container-fluid{
+    position: relative;
+    height: 100%;
+}
+.dashCon .saveChan{
+    background: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Gilroy ExtraBold;
+    padding: 4rem 6rem;
+    display: none
+}
+.dashCon .saveChan h1{
+    font-size: 24px;
+}
+.dashCon .saveChan .ok{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.dashCon .saveChan .ok a{
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 24px;
+    padding-bottom: 0;
+    font-family: 'Gilroy ExtraBold';
+}
+/*MEADIA SIGN_UP */
+
+@media (max-width: 560px){
+    .dashCon .saveChan{
+        padding: 12px;
+    }
+    
+    .dashCon .saveChan h1 {
+        font-size: 27px;
+    }
+}

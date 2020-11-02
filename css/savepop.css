@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    overflow: hidden
+}
+.dashCon .dashAside .boxFooter{
+    position: static
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(196, 196, 196, 0.25);
+    backdrop-filter: blur(50px);
+}
+.overlay .saveChan{
+    background: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Gilroy ExtraBold;
+    padding: 4rem 6rem;
+
+}
+.overlay .saveChan h1{
+    font-size: 35px;
+}
+.overlay .saveChan .ok{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.overlay .saveChan .ok a{
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 24px;
+    padding-bottom: 0;
+    font-family: 'Gilroy ExtraBold';
+}
+/*MEADIA SIGN_UP */

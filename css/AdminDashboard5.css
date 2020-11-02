@@ -1,0 +1,85 @@
+
+.content{
+    height: 100vh;
+    
+}
+.dashCon .content{
+    width: 100%;
+    background: #F6F7FB;
+    padding: 33px 0;
+    overflow: hidden;
+}
+.dashCon  .row1{
+    position: relative;
+    margin: 10px 0;
+}
+.dashCon .testimonial .offer{
+/*    width: 122px !important;*/
+    margin: 10px 0;
+    margin-right: 20px;
+    outline: none
+}
+.dashCon .testimonial .offer .box{
+    background: white;
+    padding: 5px;
+    padding-bottom: 20px;
+    font-family: 'Gilroy Light'; 
+    font-weight: bolder;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.62);
+}
+.dashCon .testimonial .offer .box h5{
+    font-size: 18px;    
+    font-family: 'Gilroy ExtraBold';
+}
+.dashCon .testimonial .offer .box i{
+    font-size: 8px;
+}
+.dashCon .testimonial .offer .box span{
+    font-size: 7px;
+}
+.dashCon .testimonial .offer .box span span{
+    font-size: 15px;
+    font-family: 'Gilroy ExtraBold';
+    margin-left: 4px;    
+}
+.dashCon .testimonial .offer .box p{
+    font-size: 9px
+}
+.dashCon .testimonial .offer a{
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Gilroy ExtraBold';
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.62);
+    display: block;
+    margin-top: 10px;
+    border-radius: 9.97px;
+    padding: 4px 0;
+    letter-spacing: 1px;
+}
+.dashCon .box-arrow i{
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    transform: translate(0,-50%)
+    color: #000;
+    padding: 1rem 5px;
+    cursor: pointer
+}
+.dashCon .box-arrow i:hover{
+    background: rgba(0,0,0,.5);
+    transition: all .3s 
+}
+.dashCon .prev{
+    left: 5px
+}
+.dashCon .next{
+    right: 5px;
+}
+/*MEADIA SIGN_UP */
+@media (max-width: 576px){
+    .dashCon .box-arrow{
+        display: none
+    }
+}
